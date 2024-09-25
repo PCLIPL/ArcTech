@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/customChart.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/stats.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+    <script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/fontawesome.js"></script>
+    <script src="assets/js/stats.min.js"></script>
+    <script src="assets/js/Chart.min.js"></script>
+    <script src="assets/js/customChart.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="javascript:void(0)"><img src="images/logo.svg" alt="logo"></a>
+                <a class="navbar-brand navbar-brand-2" href="javascript:void(0)"><img src="images/logo.png"
+                        alt="logo"></a>
+                <div class="d-flex ms-auto align-items-center">
+                    <div class="header-search me-4">
+                        <input type="text" placeholder="search" />
+                        <a href="#"><span class="iconify" data-icon="uil:search" data-width="24"></span></a>
+                    </div>
+                    <a href="#" class="notification-header me-4"><span class="iconify"
+                            data-icon="ic:baseline-battery-charging-full" data-width="24"></span></a>
+                    <a href="#" class="notification-header me-4"><span class="iconify"
+                            data-icon="material-symbols:group-add" data-width="24"></span></a>
+                    <a href="#" class="notification-header me-4"><span class="iconify" data-icon="mdi:bell-notification"
+                            data-width="24"></span></a>
+                    <div class="proilfe-header dropdown ">
+                        <a href="#" class="proilfe-Ico dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i><img src="images/avatar.png" alt=""></i>
+                            <h6>Master Master <span>Master</span></h6>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Modal -->
+    </header>
+
+    <ul class="sidebar accordion" id="accordionExample">
+        <li>
+            <a href="#"> <i><span class="iconify" data-icon="material-symbols:home" data-width="24"></span></i>
+                <small>Dashboard</small></a>
+        </li>
+
+        <li><a href="addcharger.html">
+                <i><span class="iconify" data-icon="material-symbols:charger" data-width="24"></span></i>
+                <small>My Chargers</small>
+            </a></li>
+        <li><a href="mybettery.html">
+                <i><span class="iconify"    data-icon="game-icons:batteries" data-width="24"></span></i>
+                <small>My Batteries</small>
+            </a></li>
+
+        <li><a href="addGroupset.html">
+                <i><span class="iconify" data-icon="ic:round-groups" data-width="24"></span></i>
+                <small>>Groups & Members</small>
+            </a></li>
+   
+
+            <li><a href="userProfile.html">
+                <i><span class="iconify"
+                            data-icon="mdi:user" data-width="24"></span></i>
+                    <small>Groups Member user</small>
+                </a>
+            </li>
+
+            
+        <li>
+            <a href="Reoprt.html">
+                 <i><span class="iconify" data-icon="mdi:report-bar"
+                        data-width="24"></span></i>
+                <small>My Logs</small></a>
+        </li>
+        <li>
+            <a href="support.html"> <i><span class="iconify"
+                        data-icon="material-symbols:contact-support" data-width="24"></span></i>
+                <small>Support</small></a>
+            
+        </li>
+        <li class="accordion-item">
+            <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                aria-expanded="false" aria-controls="collapseSix"> <i><span class="iconify"
+                        data-icon="material-symbols:settings" data-width="24"></span></i>
+                <small>Rules & Settings</small></a>
+        
+        </li>
+        <li class="accordion-item">
+            <a href="#" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                aria-expanded="false" aria-controls="collapseSeven"> <i><span class="iconify"
+                        data-icon="eos-icons:admin" data-width="24"></span></i>
+                <small>Site Admin's Area</small></a>
+      
+        </li>
+    </ul>
+    <section class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="MainBattryList">
+                        <a href="addChargerForm.html" class="btn btn-green me-2 d-block w-100% mb-1">Add New Charger</a>
+                        <div class="searchlableWrap">
+                            <div class="search_main header-search">
+                                <input type="text" placeholder="Search" />
+                                <a href="#"><span class="iconify" data-icon="uil:search" data-width="24"></span></a>
+                            </div>
+                            <div class="searchRadioWrap">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Search by Group
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2">
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Search by Charger
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card lg-p-4">
+                            <div class="batteryPage charger_wrap_list">
+                                <div class="device-wrap">
+                                    <h6 class="sub-title">My Groups 01</h6>
+                                </div>
+                                <ul class="battery_wrap_list charger_wrap_list">
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 001</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 002</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 003</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 004</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 005</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 006</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 007</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 008</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 009</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 010</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 011</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 012</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 013</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 014</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 015</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 016</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 017</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 018</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 019</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 020</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 021</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 022</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 023</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 024</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 025</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 026</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 027</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <hr />
+                                <div class="device-wrap">
+                                    <h6 class="sub-title">My Groups 02</h6>
+                                </div>
+                                <ul class="battery_wrap_list charger_wrap_list">
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 001</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 002</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 003</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 004</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 005</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 006</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 007</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 008</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 009</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 010</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 011</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 012</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 013</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 014</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 015</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 016</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 017</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 018</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 019</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 020</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 021</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 022</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 023</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 024</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 025</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 026</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 027</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <hr />
+                                <div class="device-wrap">
+                                    <h6 class="sub-title">My Groups 03</h6>
+                                </div>
+                                <ul class="battery_wrap_list charger_wrap_list">
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 001</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 002</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 003</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 004</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 005</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 006</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 007</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 008</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 009</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 010</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 011</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 012</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 013</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 014</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 015</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 016</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 017</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 018</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 019</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 020</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 021</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 022</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 023</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 024</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 025</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 026</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 027</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <hr />
+                                <div class="device-wrap">
+                                    <h6 class="sub-title">My Groups 04</h6>
+                                </div>
+                                <ul class="battery_wrap_list charger_wrap_list">
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 001</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 002</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 003</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 004</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 005</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 006</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 007</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 008</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 009</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 010</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 011</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 012</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 013</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 014</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 015</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 016</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 017</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 018</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 019</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 020</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 021</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 022</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 023</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 024</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 025</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 026</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 027</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <hr />
+                                <div class="device-wrap">
+                                    <h6 class="sub-title">My Groups 05</h6>
+                                </div>
+                                <ul class="battery_wrap_list charger_wrap_list">
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 001</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 002</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 003</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 004</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 005</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 006</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 007</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 008</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 009</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 010</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 011</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 012</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 013</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 014</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 015</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 016</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 017</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 018</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 019</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 020</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 021</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 022</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 023</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 024</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 025</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 026</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 027</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <hr />
+                                <div class="device-wrap">
+                                    <h6 class="sub-title">My Groups 07</h6>
+                                </div>
+                                <ul class="battery_wrap_list charger_wrap_list">
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 001</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 002</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 003</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 004</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 005</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 006</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 007</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 008</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 009</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 010</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 011</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 012</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 013</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 014</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 015</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 016</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 017</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 018</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 019</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 020</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 021</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 022</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 023</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 024</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 025</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 026</h6>
+                                        </a>
+                                    </li>
+                                    <li class="battery_list_item">
+                                        <a href="#">
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover" colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                            <h6>Battery <br /> SN 027</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card lg-p-4">
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Group Select </label>
+                                        <select class="form-control form-select">
+                                            <option value="">Group Select 01</option>
+                                            <option value="">Group Select 02 </option>
+                                            <option value="">Group Select 03</option>
+                                            <option value="">Group Select 04</option>
+                                            <option value="">Group Select 05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery Id</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery model</label>
+                                        <select class="form-control form-select">
+                                            <option value="">Battery model 01</option>
+                                            <option value="">Battery model 02 </option>
+                                            <option value="">Battery model 03</option>
+                                            <option value="">Battery model 04</option>
+                                            <option value="">Battery model 05</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery owner id</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery srno csn aclog</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery UID</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery relaybrd id</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery motherboard firmware id</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery daughterboard firmware id</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery manufacture date</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-groups">
+                                        <label class="form-label">Battery MAC address</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#" class="btn btn-blue mt-3">Submit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="card lg-p-4 chargerList">
+                                <div class="device-wrap mb-3">
+                                    <h6 class="sub-title text-center">Select Battery </h6>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 01</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 02</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 03</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 04</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 05</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 06</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 07</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 08</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 09</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 10</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 11</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 12</h6>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <lord-icon src="https://cdn.lordicon.com/yquhwcvw.json" trigger="hover"
+                                                colors="primary:#0099ff,secondary:#0099ff" stroke="60">
+                                            </lord-icon>
+                                        </span>
+                                        <h6>Battery 13</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
